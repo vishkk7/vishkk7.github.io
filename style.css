@@ -1,0 +1,2530 @@
+/*laranja #ebd2be  bege */
+
+/*HOMEPAGE*/
+* {
+    padding: 0;                                             /*TROCAR OS PX PRA REMMMMMMMMMMMMMMMMMMMMMMMMM*/
+    margin: 0;
+}
+
+body {
+    background-color: #1b0a11;
+}
+
+header {
+    gap: 3.125rem;
+    display: flex; /* */
+    background-image: url(imgs/Design\ sem\ nome\ \(1\).png);
+    background-size: cover;
+    height: 6.75rem;
+    padding: 1.25rem 2.1875rem;
+    justify-content: space-evenly;
+}   /* */
+
+h1, h2{
+    color: whitesmoke;
+   
+}
+
+.guias{
+    display: flex;
+}
+
+main{
+    margin-top: 3%;
+}
+
+
+nav {
+    display: flex;
+    margin-top: 3%;
+    font-size: 1.8vw;
+}
+
+
+
+
+nav a {
+    text-decoration: none;
+}
+
+#imgLogo {
+    width: 19.6875rem;
+    height: 6.75rem;
+    visibility: visible;
+}
+
+
+#imgCranio{
+    width: 3.125rem;
+    height: 3.125rem;
+    visibility: hidden;
+}
+
+nav a li {
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffecdd;
+    list-style: none;
+}
+
+
+
+nav ul{
+    gap: 7rem;
+    display: flex;
+    color: #ebd2be;
+}
+
+
+#icon{
+    width: 3.75rem;
+    height:3.75rem;
+}
+
+/*SOBRE NÓS*/
+
+
+.fita_sobre{
+    background-color: #DF1A22;
+    height: 6.25rem;
+    margin-right: 15%;
+    margin-top: 8%;
+}
+
+.fita_sobre p {
+    font-size: 2.5rem;
+    font-family: "Irish Grover", system-ui;
+    margin: 0;
+    padding-top: 1.775rem;
+}
+
+.sobre-text-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+    background-image: url(imgs/fundoSN2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 34.0625rem;
+    width: 100%;
+    color: white;
+    z-index: 10;
+    position: relative;
+    
+}
+
+
+
+.sobre-text{
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 1.75rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.555);
+    padding: .625rem;
+    margin-bottom: 3%;
+    letter-spacing: .0938rem;
+    font-family: Verdana;
+    width: 80%;
+    text-align: justify;
+    border-radius: .625rem;
+}
+
+.sobre-redondo{
+    background-color: white;
+    margin-top: 15%;
+    width: 25rem;
+    height:25rem;
+    border-radius: 50%;
+    z-index: 2;
+    margin-left: 5%;
+}
+
+.sobre-text-holder2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10%;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.555);
+    padding: 1.125rem;
+    margin-bottom: 6%;
+    letter-spacing: .0938rem;
+    background-color: #DF1A22;
+    height: 28.125rem;
+    
+}
+
+.sobre-text2{
+    font-size: 1.75rem;
+    text-align: justify;
+    width: 50%;
+    font-family: Verdana;
+}
+
+.tequila{
+    width: 12.5rem;
+    height: 14.375rem; 
+    margin-top: -15%;
+    margin-left: 3%;
+    margin-bottom:20%;
+    
+}
+
+
+/*EVENTOS*/
+
+.t-eventos{
+    color: #ec5930;
+    margin-bottom: 1%;
+    letter-spacing: .1875rem;
+    margin-top: -3%;
+}
+
+.p-eventos{
+    text-align: center;
+    margin-bottom: 1%;
+    color: white;
+    font-size: 1.375rem;
+}
+.Heventos{
+    margin-bottom: 5%;
+}
+.slider {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+section.slider {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: 31.25rem;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.slider-content {
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.slider-content input, .img-mobile {
+    display: none;
+}
+
+.slide-box {
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+
+.img-mobile {
+    display: none;
+}
+
+.slide-box img {
+    width: 85%;
+}
+
+
+
+.nav-manual, .nav-auto {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+   
+}
+
+.nav-manual .manual-btn, .nav-auto div {
+    border: .0625rem solid #FC6202;
+    padding: .625rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+   
+}
+
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child) {
+    margin-right: .625rem;
+}
+
+.nav-manual .manual-btn:hover {
+    background-color: #FC6202;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3 {
+    background-color: #FC6202;
+}
+
+#radio1:checked ~ .primeiro {
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .primeiro {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .primeiro {
+    margin-left: -50%;
+}
+
+
+
+.img-evento{
+    border-radius: 50%;
+    margin-left: 5%;
+    height:23rem;
+    width: 23rem;
+    z-index: 2;
+    position: relative;
+    margin-bottom: -5%;
+    margin-top: 5%;
+}
+
+.niver{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #212121;
+    padding: 2.8125rem;
+    text-align: center;
+    margin-top: -11%;
+    border-radius: .9375rem;
+    margin-bottom: 5%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.niver article {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 70%;
+    padding: .3125rem;
+    
+}
+
+.niver article h3{
+    margin-top: -2%;
+    margin-bottom: 2%;
+    color: #FFAE62;
+    letter-spacing: .125rem;
+}
+
+.niver article p{
+    margin-left: 5%;
+    text-align: justify;
+    margin-bottom: 3%;
+    font-size: 1.25rem;
+    
+}
+
+.niver article a{
+    background-color: #E5552E;
+    padding: .3125rem 1.25rem;
+    color: white;
+    font-size: 1.125rem;
+    border-radius: .5rem;
+    margin: 0 auto;
+}
+
+.niver article a:hover{
+    color: black;
+}
+
+.niver:hover{
+    transform: scale(1.05);
+    
+}
+
+.img-quebra-linha{
+    display: flex;
+    width: 21.875rem;
+    height: 6.25rem;
+    justify-content: center;
+    margin: auto;
+    margin-top:5% ;
+    margin-bottom: 5%;
+}
+
+
+
+/*CADASTRO*/
+body {
+    font-family: Arial, sans-serif;
+    background-color:black;
+    color: #FFFFFF;
+  }
+  
+  .tudo-cadastro {
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 1.875rem ;
+    padding-right: 3.75rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    background-color: #ec4b1f;
+    border-radius: .625rem;
+    box-shadow: 0 .25rem .5rem rgba(0, 0, 0, 0.3);
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #idFlorzinha{
+    display: none;
+    visibility: hidden;
+  }
+
+  input[type="submit"] {
+    background-color: #df2911;
+    color: #FFFFFF;
+    border: none;
+    border-radius: .3125rem;
+    padding: .9375rem 0;
+    width: 15.625rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+
+
+  input[type="submit"]:hover {
+    background-color:rgb(24, 22, 22) ;
+    color: white;
+  }
+
+  /* form{
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+  .calanguinho-cadastro{
+    margin-top: 15%;
+    width: 16.125rem;
+    height: 25.625rem;
+    position: absolute;
+    z-index: -1;
+    margin-left: -6%;
+  }
+
+  h2 {
+    font-size: 2.187rem;
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: "Irish Grover", system-ui;
+  }
+
+  input[type="text"], input[type="email"], input[type="password"], select, textarea {
+    width: 100%;
+    padding: .9375rem;
+    margin-top: .625rem;
+    margin-bottom: 1.25rem;
+    border: none;
+    border-radius: .3125rem;
+    background-color: #e47151;
+    color: white;
+    font-size: 1.3125rem;
+  }
+  ::-webkit-input-placeholder {
+    color: white;
+ }
+
+  
+
+
+/*CARROSSEL*/
+
+.slider{
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+}
+
+
+
+section.slider{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: 31.25rem;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.slider-content{
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.slider-content input, .img-mobile{
+    display: none;
+}
+
+
+.slide-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+
+.img-mobile{
+    display: none;
+}
+
+.slide-box img{
+    width: 85%;
+}
+
+.nav-manual, .nav-auto{
+    position: absolute;
+    width: 100%;
+    margin-top: 29%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-manual .manual-btn, .nav-auto div{
+    border: .0625rem solid #FC6202;
+    padding: .625rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+    margin-right: .625rem;
+}
+
+.nav-manual .manual-btn:hover{
+    background-color: #FC6202;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
+    background-color: #FC6202;
+}
+
+#radio1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .primeiro{
+    margin-left: -50%;
+}
+
+.title{
+    text-align: center;
+    font-size: 1.875rem;
+    margin-bottom: 2rem;
+}
+
+.miniguias{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulos{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 1.875rem;
+}
+
+
+
+/* CARDAPIO*/
+
+.opcoes {
+    display: flex;
+    font-size: 2.1875rem;
+    justify-content: space-around;
+    margin-top: 4%;
+    font-family: "Irish Grover", system-ui;
+}
+
+.opcoes a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.opcoes a:hover{
+    color: #ec5930;
+    transition: all 0.3s;
+}
+
+.card-redondo{
+    border-radius: 100%;
+    width: 15.625rem; 
+    height: 15.625rem;
+    position: relative;
+    margin-left: -11.3%;
+}
+
+
+#btnpratos, .text{
+    display: flex;
+    align-items: center;
+}
+
+#btnpratos{
+    text-decoration: none;
+}
+
+
+.section-cardapio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-produto{
+    display: flex;
+    justify-content: space-around;
+    gap: .625rem;
+    height: 15.625rem;
+    width: 65.625rem;
+    background-color:  rgba(56, 56, 53, 0.664);
+    border-radius: 1.5625rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.25rem; 
+    margin-bottom: 1.25rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+}
+
+.card-produtoDireito{
+    padding-left: 1.25rem;
+}
+
+.card-produto:hover{
+    transition: all 0.5s;
+    transform: scale(1.08);
+}
+.card-text {
+    font-size: 1.125rem;
+    color: white;
+    width: fit-content;
+}
+
+.btnpratos{
+    background-color: #E5552E;
+    color: white;
+    border: none;
+    padding: .3125rem 0;
+    border-radius: .9375rem;
+    width: 7.5rem;
+}
+.text{
+    width: 725px;
+}
+
+.btnpratos:hover{
+    background-color: #FFAE62;
+}
+
+.card-produtoDireito{
+    display: flex;
+    justify-content: space-between;
+    gap: .625rem;
+    height: 15.625rem;
+    width: 65.625rem;
+    background-color:  rgba(56, 56, 53, 0.664);
+    border-radius: 1.5625rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+}
+
+.esconder{
+    display: none;
+}
+
+.section-cardapio{
+    margin: 5% 0;
+}
+
+.card-redondoDireito{
+    margin-right: -12.3%;
+}
+
+.textDireito{
+    width: 725px;
+    margin-left: -15%;
+}
+
+
+
+
+
+/* h1 {
+    text-align: center;
+    margin-top: 1.25rem;
+    font-family: "Irish Grover", system-ui;
+}
+
+.opcoes {
+    display: flex;
+    font-size: 2.1875rem;
+    justify-content: space-around;
+    margin-top: 4%;
+    font-family: "Irish Grover", system-ui;
+}
+
+
+
+
+
+.t1 {
+    text-align: center;
+    color: white;
+    font-size: 3.125rem;
+    margin-top: 10%;
+    font-family: "Irish Grover", system-ui;
+}
+
+.section-cardapio::before { 
+    content: ' ';
+    background-image: url(imgs/calaverito.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    width: 1400px;
+    height: 1000px;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+    z-index: -1;
+    margin-left: 5%;
+    margin-top: -5%;
+    margin-left: 5%;
+    margin-right: 10%;
+    overflow: hidden;
+}
+    
+
+
+.card1-cardapio, .card2-cardapio, .card3-cardapio {
+    padding: .625rem 3.125rem;
+}
+
+.card1-cardapio:hover, .card2-cardapio:hover, .card3-cardapio:hover {
+    transition: all 0.5s;
+    transform: scale(1.08);
+}
+
+.card-redondo { 
+    margin-left: 5.625rem; 
+    width: 15.625rem; 
+    height: 15.625rem;
+    position: absolute; 
+    z-index: 2; 
+    border-radius: 55%;
+}
+
+
+.card-text-holder { 
+    background-color: rgba(56, 56, 53, 0.664);
+    padding-top: 4.6875rem; 
+    padding-bottom: 6.25rem;
+    padding-left: 12.5rem; 
+    padding-right: 12.5rem; 
+    border-radius: 1.875rem; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 12.5rem; 
+    margin-bottom: 3.125rem;
+}
+
+
+.card-text-holder p {
+    margin: 0;
+    flex: 80;
+}
+
+.card-text-holder a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.125rem;
+    letter-spacing: .0938rem;
+    text-decoration: none;
+    color: #f8f2f2;
+    display: inline-block;
+    margin-left: .9375rem;
+    border: solid .0625rem #774949;
+    padding: .4375rem 1.25rem;
+    transition: all 0.2s;
+    border-radius: .9375rem;
+}
+
+.card-text-holder a:hover {
+    background-color: #774949;
+    color: rgb(0, 0, 0);
+}
+
+.card-text {
+    font-size: 1.125rem;
+    color: white;
+}
+
+
+
+.t2{
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    margin-top: 15%;
+    font-family: "Irish Grover", system-ui;
+}
+
+
+.card1-pratos, .card2-pratos, .card3-pratos {
+    padding: .625rem 3.125rem;
+}
+
+.card1-pratos:hover, .card2-pratos:hover, .card3-pratos:hover {
+    transition: all 0.5s;
+    transform: scale(1.08);
+}
+
+.card-redondo { 
+    margin-left: 5.625rem; 
+    width: 15.625rem; 
+    height: 15.625rem; 
+    position: absolute; 
+    z-index: 2; 
+    border-radius: 55%;
+}
+
+
+.card-text-holder {  
+    background-color: rgba(56, 56, 53, 0.664);
+    padding-top: 4.6875rem; 
+    padding-bottom: 6.25rem;
+    padding-left: 12.5rem; 
+    padding-right: 12.5rem; 
+    border-radius: 1.875rem; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 12.5rem; 
+    margin-bottom: 3.125rem; 
+}
+
+
+.card-text-holder p {
+    margin: 0;
+    flex: 80;
+}
+
+.card-text-holder a { 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.125rem;
+    letter-spacing: .0938rem;
+    text-decoration: none;
+    color: #f8f2f2;
+    display: inline-block;
+    margin-left: .9375rem;
+    border: solid .0625rem #774949;
+    padding: .4375rem 1.25rem;
+    transition: all 0.2s;
+    border-radius: .9375rem;
+}
+
+.card-text-holder a:hover {
+    background-color: #774949;
+    color: rgb(0, 0, 0);
+}
+
+.card-text {
+    font-size: 1.125rem;
+    color: white;
+}
+
+
+ 
+
+
+.t1 {
+    text-align: center;
+    color: white;
+    font-size: 3.125rem;
+    margin-top: 10%;
+    font-family: "Irish Grover", system-ui;
+}
+
+.card1-bebidas, .card2-bebidas, .card3-bebidas {
+    padding: .625rem 3.125rem;
+}
+
+.card1-bebidas:hover, .card2-bebidas:hover, .card3-bebidas:hover {
+    transition: all 0.5s;
+    transform: scale(1.08);
+}
+
+.card-redondo-bebidas{ 
+    margin-left: 5.625rem; 
+    height: 15.625rem; 
+    position: absolute; 
+    z-index: 2; 
+    border-radius: 55%;
+}
+
+
+.card-text-holder-bebidas { 
+    background-color: rgba(56, 56, 53, 0.664);
+    padding-top: 4.6875rem; 
+    padding-bottom: 6.25rem;
+    padding-left: 12.5rem; 
+    padding-right: 12.5rem; 
+    border-radius: 1.875rem; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 12.5rem; 
+    margin-bottom: 3.125rem; 
+}
+
+
+.card-text-holder-bebidas p {
+    margin: 0;
+    flex: 80;
+}
+
+.card-text-holder-bebidas a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.125rem;
+    letter-spacing: .0938rem;
+    text-decoration: none;
+    color: #f8f2f2;
+    display: inline-block;
+    margin-left: .9375rem;
+    border: solid .0625rem #774949;
+    padding: .4375rem 1.25rem;
+    transition: all 0.2s;
+    border-radius: .9375rem;
+}
+
+.card-text-holder-alcolicas a:hover {
+    background-color: #774949;
+    color: rgb(0, 0, 0);
+}
+
+.card-text-tudo {
+    font-size: 1.125rem;
+    color: white;
+}
+
+
+
+
+
+
+
+.t2 {
+    text-align: center;
+    color: white;
+    font-size: 3.125rem;
+    margin-top: 10%;
+    font-family: "Irish Grover", system-ui;
+}
+
+.card1-bebidas-alcolicas, .card2-bebidas-alcolicas, .card3-bebidas-alcolicas {
+    padding: .625rem 3.125rem;
+}
+
+.card1-bebidas-alcolicas:hover, .card2-bebidas-alcolicas:hover, .card3-bebidas-alcolicas:hover {
+    transition: all 0.5s;
+    transform: scale(1.08);
+}
+
+.card-redondo-alcolicas{ 
+    margin-left: 5.625rem; 
+    width: 15.625rem; 
+    height: 15.625rem; 
+    position: absolute; 
+    z-index: 2; 
+    border-radius: 55%;
+}
+ 
+
+.card-text-holder-alcolicas { 
+    background-color: rgba(56, 56, 53, 0.664);
+    padding-top: 4.6875rem; 
+    padding-bottom: 6.25rem;
+    padding-left: 12.5rem; 
+    padding-right: 12.5rem; 
+    border-radius: 1.875rem; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 12.5rem; 
+    margin-bottom: 3.125rem; 
+}
+
+
+.card-text-holder-alcolicas p {
+    margin: 0;
+    flex: 80;
+}
+
+.card-text-holder-alcolicas a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.125rem;
+    letter-spacing: .0938rem;
+    text-decoration: none;
+    color: #f8f2f2;
+    display: inline-block;
+    margin-left: .9375rem;
+    border: solid .0625rem #774949;
+    padding: .4375rem 1.25rem;
+    transition: all 0.2s;
+    border-radius: .9375rem;
+}
+
+.card-text-holder-alcolicas a:hover {
+    background-color: #774949;
+    color: rgb(0, 0, 0);
+}
+
+.card-text-tudo {
+    font-size: 1.125rem;
+    color: white;
+}
+
+.card3-bebidas-alcolicas{ 
+    margin-bottom: 7%;
+}
+
+
+
+/*RETANGULOS DO MEIO DO SITE*/
+
+
+
+.estatico_unidades{
+    display: flex;
+    margin: 9.6875rem 0 6.25rem;
+    width: 100%;
+}
+.estatico_unidades a{
+    text-decoration: none;
+}
+
+.division{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
+.img-lagartixa{
+    margin-left: -6%;
+    width: 18.75rem;
+    height: 28.25rem;
+}
+
+
+
+.static--imgs{
+    height: 26.875rem;
+    width: 19.0625rem;
+    border-radius: .9375rem;
+    transition: all 0.4s;
+   
+}
+
+h3{
+    color: #fef3eb;
+    margin-bottom: .9375rem;
+    text-align: center;
+    font-size: 3em;
+    font-family: "Irish Grover", system-ui;
+    letter-spacing: .125rem;
+}
+
+.static--imgs:hover{
+    transform: scale(1.05);
+    transform-origin: center;
+    
+   
+}
+
+.img-fixed img{
+    position: static;
+} */
+
+
+/*COMBO */
+
+
+
+
+.t-combo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.t-combo h1 {
+    font-size: 3.75rem;
+
+}
+
+.img-pimentinha {
+    width: 15.625rem;
+    height: 14.5rem;
+
+}
+
+.card-combo-holders, .card-combo-holders2{
+    display: flex;
+    float: left;
+    padding: 1.5625rem;
+}
+
+.card-combo-holders img, .card-combo-holders2 img{
+    width: 350px;
+    height: 300px;
+    border-radius: 13px;
+}
+
+.card-combo-holders li{
+    list-style-type: disc;
+    padding: 10px;
+}
+
+.card-combo-holders a{
+    margin-left: 35%;
+    background-color: #E5552E;
+    padding: 5px 25px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.card-combo-holders a:hover{
+    background-color: white;
+    color: #E5552E;
+}
+.combo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.combo:hover{
+    transition: all 0.4s;
+    transform: scale(1.04);
+    background-color: grey;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.space-card1{
+    margin-top: 5%;
+}
+.space-card2{
+    margin-bottom: 5%;
+}
+
+
+
+
+.card-combo-holders2 li{
+    list-style-type: disc;
+    padding: 10px;
+}
+
+.card-combo-holders2 a{
+    margin-left: 35%;
+    background-color: #E5552E;
+    padding: 5px 25px;
+    border-radius: 5px;
+    color: white;
+    list-style: none;
+}
+
+.card-combo-holders2 a:hover{
+    background-color: white;
+    color: #E5552E;
+}
+.combo2{
+    padding: 20px;
+    margin-right: 4%;
+}
+.combo2:hover{
+    transition: all 0.4s;
+    transform: scale(1.04);
+    background-color: grey;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+
+
+
+/*UNIDADES*/
+
+
+h1{
+    font-size: 3.5vw;
+    text-align: center;
+    margin-top: 5%;
+    font-family: "Irish Grover", system-ui;
+    letter-spacing: 3px;
+    color: #ec5930;
+}
+
+.card-todos{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+
+}
+
+.unidades-card1, .unidades-card2, .unidades-card3, p{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+
+}
+
+.unidades-card1, .unidades-card2, .unidades-card3{
+    width: 430px;
+    height: 400px;
+}
+
+.unidades-card1:hover, .unidades-card2:hover, .unidades-card3:hover{
+    background-color:rgb(75, 71, 71) ;
+    transition: all 0.4s;
+    transform: scale(0.99);
+    border-radius: 15px;
+}
+
+.botaoLermais{
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#btnlerMais{
+
+    transition: all 0.2s;
+    padding: 5px 25px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(74, 25, 44);
+    box-shadow: 0px 0px 5px 3px rgb(74, 25, 44);
+    color: antiquewhite;
+}
+#btnlerMais:hover{
+    background-color: rgb(124, 53, 80);
+    box-shadow: 0px 0px 5px 3px rgb(124, 53, 80);
+}
+
+#lerMais{
+    display: flex;
+    justify-content: center;
+}
+
+
+.imgFlex{
+    display: flex;
+    justify-content: center;
+}
+
+.img-endereco{
+    margin-top: 30px;
+    width: 300px;
+    height: 250px;
+    border-radius: 8px;
+
+}
+
+
+.card-endereco-holder a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    letter-spacing: 1.5008px;
+    text-decoration: underline;
+    color: #ebd2be;
+    background-color: #E5552E;
+    transition: all 0.2s;
+    border-radius: 15px;
+    padding: 2px 15px;
+}
+
+.card-endereco-holder a:hover{
+    background-color: #41271fa6;
+    color: #ebd2be;
+}
+
+
+
+.card-endereco{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+.rodape{
+    height: 96px;
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(to right, #ff3939, #ff442f, #ff4e25, #fe5818, #fc6202);
+    justify-content: space-between;
+    
+}   
+         
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    width: 200px;
+}
+
+
+.rdpCombo{
+    margin-top: 6%;
+}
+
+.texto_footer{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: ease-in-out .4s;
+}
+
+
+.texto_footer:hover{
+    color: black;
+}
+
+.texto_footer::before {
+    content: '';
+    height: 1.500z.5rem;
+    width: 0%;
+    position: absolute;
+    background-color: #000000;
+    margin-top: 19px;
+    transition: .4s ease-in-out;
+
+}
+
+.texto_footer:hover::before {
+    width: 5%;
+}
+
+.p {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    align-items: center;
+    width: 500px;
+}
+
+
+.box-footer::after{
+    position: absolute;
+    content: " ";
+    width: 0;
+    background-color: antiquewhite;
+    transition: ease-in-out .4s;
+}
+
+.box-footer:hover::after {
+    width: 4%;
+}
+
+
+.img-colorida{
+    display: flex;
+    margin-top: -48px;
+    position: relative;
+    height: 144px;
+    
+   
+}
+/*MEDIA PRA MOBILE*/
+@media only screen and (min-width: 1.875rem) and (max-width: 480px) {
+
+
+     /* HOMEPAGE */
+    header{
+        display: flex;
+        height: 50px;
+        padding: 5px 8px;
+        gap: 10px;
+        justify-content: space-around;
+    }
+
+    nav ul{
+        font-size: 3.5vw;
+        gap: 48px;
+    }
+    
+    #imgLogo{
+        display: none;
+        width: 0%;
+    }
+
+    #imgCranio{
+        width: 50px;
+        height: 50px;
+        visibility: visible;
+        
+    }
+
+    .img-lagartixa{
+        display: none;
+    }
+
+   .static--imgs{
+        width: 230px;
+        height: 300px;
+    }
+    
+    .division{
+        flex-wrap: wrap;
+        margin-left: 10%;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    h3{
+        font-size: 3vw;
+    }
+
+    .social{
+        justify-content: space-around;
+        margin-left: 0;
+        width: 150px;
+    }
+
+    #icone{
+        width: 20px;
+        height: 20px;
+    }
+
+    .p{
+        width: 350px;
+    }
+
+    .texto_footer{
+        font-size: 15px;
+    }
+
+
+    .rodape{
+        width: 100%;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .img-colorida{
+        display: none;
+    }
+
+    .nav-manual, .nav-auto{
+        display: none;
+    }
+
+    section.slider{
+        height: 100%;
+    }
+
+    .slide-box img{
+        width: 99.5%;
+    }
+
+    .estatico_unidades {
+        margin: 25px 0 100px;
+    }
+    
+    .sobre-text-holder2{
+        height: 350px;
+    }
+
+    /* HOMEPAGE */
+
+    /* CADASTRO */
+    .tudo-cadastro {
+        margin: 2% 2.5%;
+      }
+
+    h2{
+        font-size: 3vw;
+    }
+
+    input[type="text"], input[type="email"], input[type="password"], select, textarea{
+        font-size: 3vw;
+    }
+
+    .calanguinho-cadastro{
+        display: none;
+    }
+
+    
+    .florzinha-cadastro{
+        display: flex;
+        justify-content: center;
+    }
+    .florbtm1{
+        margin-top: 33%;
+    }
+    .florbtm2{
+        margin-bottom: 33%;
+    }
+
+    #idFlorzinha{
+        width: 115px;
+        display: block;
+        visibility: visible;
+    }
+
+
+   /* COMBOS */
+   .t-combo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+   }
+    .t-combo h1{
+    font-size: 45px;
+    font-family: "Irish Grover", system-ui;
+    text-align: center;
+    margin-left: 25%;
+   }
+   .img-pimentinha{
+    width: 132px;
+    height: 100px;
+    justify-content: center;
+    margin-right: 11%;
+   }
+
+   .card-combo-holders{
+    display: flex;
+    flex-wrap: wrap;
+   }
+    .card-combo-holders img{
+        width: 280px;
+        height: 270px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+   .combo li{
+    margin-right: 10%;
+    
+    
+   }
+   .combo a{
+    margin-left: 32%;
+    
+   }/*foiii, vlw lucasr 👍👍*/
+    .combo:hover{
+        background-color:  inherit;
+        transform: inherit;
+        transition: inherit;
+        /* tmj 🤝
+        qualquer coisa dá um toque 😎👍 vlw*/
+        /*só com o inherit acho q vai*/
+    }
+
+    .combo2:hover{
+        background-color:  inherit;
+        transform: inherit;
+        transition: inherit;
+    }
+    .card-combo-holders a:hover{
+        color: inherit;
+        background-color: inherit;
+    }
+    
+    .card-combo-holders2 a:hover{
+        color: inherit;
+        background-color: inherit;
+    }
+   .card-combo-holders2{
+    display: flex;
+    flex-wrap: wrap;
+   }
+    .card-combo-holders2 img{
+        width: 280px;
+        height: 270px;
+        justify-content: center;
+        align-items: center;
+   
+    }
+
+   .combo2 li{
+    margin-right: 10%;
+   }
+   .combo2 a{
+    margin-left: 32%;
+    margin-bottom: 5%;
+   }
+   
+   /* UNIDADES */
+   .card-todos{
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+   .img-endereco{
+    width: 250px;
+    height: 200px;
+    }
+
+   .botaoLermais{
+    display: none;
+   }
+   .unidades-card1, .unidades-card2, .unidades-card3{
+    width: 400px;
+    height: 370px;
+}
+
+
+/*CARDAPIO*/
+
+
+.t-cardapio{
+    font-size: 60px;
+}
+#favs, #prtcasa, #bbd, #bbdAlc{
+    font-size: 35px;
+}
+
+.opcoes{
+    display: none;
+}
+
+.section-cardapio::before {
+    display: none;
+}
+
+.section-cardapio{
+    
+}
+
+.card-produto,.card-produtoDireito{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    height: 400px;
+    margin-top: 5%;
+}
+
+
+
+.card-redondo{
+    width: 210px;
+    height: 170px;
+    margin-left: 0%;
+    margin-top: 2%;
+}
+
+.card-text{
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: justify;
+}
+.escondido{
+    display: none;
+}
+.esconder{
+    display: block;
+}
+
+
+
+
+
+
+
+        /*SOBRE NÓS*/
+
+
+        .sobre-text,  .sobre-text2{
+            font-size: 15px;
+           
+        }
+
+        .sobre-text2{
+            text-align: right;
+            width: 75%;
+        }
+
+        .sobre-redondo{
+            width: 200px;
+            height: 200px;
+           
+        }
+
+        .tequila{
+            width: 100px;
+            height: 100px;
+        }
+
+        .fita_sobre{
+         height: 48px;
+         margin-right: 20%;
+        }
+
+        .fita_sobre p {
+            font-size: 32px;
+            padding-top: 5.28px;
+        }
+
+
+        /*EVENTOS*/
+
+
+        .t-eventos{
+            font-size: 30px;
+        }
+
+        .p-eventos{
+            font-size: 14px;
+            margin-bottom: 2%;
+        }
+        .img-evento{
+       
+            margin-left: 3%;
+            height: 200px;
+            width: 200px;
+            z-index: 2;
+            position: relative;
+            margin-bottom: -5%;
+            margin-top: 5%;
+        }
+        
+        .niver{
+            width: 70%;
+            margin: 0 auto;
+        }
+        
+        .niver article {
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            width: 70%;
+            letter-spacing: 1px;
+            padding: 5px;
+            
+        }
+        
+        .niver article h3{
+            margin-top: -2%;
+            margin-bottom: 2%;
+            letter-spacing: 2px;
+            font-size: 30px;
+        }
+        
+        .niver article p{
+            margin-left: 5%;
+            text-align: justify;
+            margin-bottom: 3%;
+            font-size: 15px;
+            
+        }
+        
+        .niver article a{
+            background-color: #E5552E;
+            padding: 5px 20px;
+            color: white;
+            font-size: 12px;
+            border-radius: 8px;
+            margin: 0 auto;
+            margin-top: 3%;
+        }
+        
+        .niver article a:hover{
+            color:inherit;
+        }
+        
+        .niver:hover{
+            transform: inherit;
+            
+        }
+        
+        .img-quebra-linha{
+            display: flex;
+            width: 250px;
+            height: 80px;
+            justify-content: center;
+            margin: auto;
+            margin-top:5% ;
+            margin-bottom: 5%;
+        }
+
+}
+/*MEDIA PARA TABLET*/
+@media only screen and (min-width: 30.0625rem) and (max-width: 960px) {
+
+    /* CABEÇALHO */
+    header{
+        display: flex;
+        height: 100px;
+        padding: 5px 8px;
+        gap: 10px;
+        justify-content: space-around;
+    }
+
+    nav ul{
+        font-size: 3vw; 
+        gap: 48px;
+    }
+    
+    #imgLogo{
+        
+        width: 180px;
+        height: 80px;
+    }
+
+    
+
+    #imgCranio{
+        display: none;
+        
+    }
+    /* CABEÇALHO */
+
+    
+    
+    
+
+    /* RODAPE */
+    #icone{
+        width: 20px;
+        height: 20px;
+    }
+
+    .social{
+        
+        justify-content: space-around;
+        margin-left: 0;
+        width: 150px;
+    }
+    
+    .p{
+        width: 350px;
+    }
+
+    .texto_footer{
+        font-size: 15px;
+    }
+
+    .rodape{
+        width: 100%;
+        gap: 15px;
+        
+    }
+
+    .img-colorida{
+        display: none;
+    }
+    /* RODAPE */
+
+
+
+    /* HOMEPAGE */
+    .nav-manual, .nav-auto{
+        margin-top: 58%;
+    }
+
+    .img-lagartixa{
+        display: none;
+    }
+
+    .division{
+        flex-wrap: wrap;
+        gap: .9375rem;
+        justify-content: center;
+        margin: 8% 5%;
+    }
+
+    h3{
+        font-size: 3.5vw;
+    }
+
+    section.slider{
+        height: 100%;
+    }
+
+    .slide-box img{
+        width: 99.5%;
+    }
+
+    .estatico_unidades {
+        margin: 1.5625rem 0 6.25rem;
+    }
+
+    .static--imgs {
+        height: 26.875rem;
+        width: 26.875rem;
+        border-radius: .9375rem;
+        transition: all 0.4s;
+    }
+    
+    .sobre-text-holder2{
+        height: 21.875rem;
+    }
+    /* HOMEPAGE */
+
+    /* CADASTRO */
+    .tudo-cadastro {
+        margin: 2.5% 2.5%;
+      }
+
+    h2{
+        font-size: 3vw;
+    }
+
+    input[type="text"], input[type="email"], input[type="password"], select, textarea{
+        font-size: 3vw;
+    }
+
+    .calanguinho-cadastro{
+        display: none;
+    }
+
+    .florzinha-cadastro{
+        display: flex;
+        justify-content: center;
+    }
+    .florbtm1{
+        margin-top: 33%;
+    }
+    .florbtm2{
+        margin-bottom: 33%;
+    }
+
+    #idFlorzinha{
+        width: 7.1875rem;
+        display: block;
+        visibility: visible;
+    }
+
+    /* COMBOS */
+    .t-combo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        
+       }
+        .t-combo h1{
+        font-size: 2.8125rem;
+        font-family: "Irish Grover", system-ui;
+        text-align: center;
+        margin-left: 25%;
+       }
+       .img-pimentinha{
+        width: 8.25rem;
+        height: 6.25rem;
+        justify-content: center;
+        margin-right: 11%;
+       }
+    
+    .card-combo-holders, .card-combo-holders2 {
+        
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+       }
+
+        .card-combo-holders img,  .card-combo-holders2 img{
+            width: 21.875rem;
+            height: 18.75rem;
+            
+        }
+
+        
+    .t-combo h1{
+        font-size: 3rem;
+    }
+
+    .img-pimentinha{
+        width: 9.375rem;
+        height: 8.125rem;
+    }
+
+    .combo a, .combo2 a{
+        margin-right: 30%;
+        
+    }
+
+    /* UNIDADES */
+   .card-todos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+   }
+
+           /*SOBRE NÓS*/
+
+
+           .sobre-text,  .sobre-text2{
+            font-size: 18px;
+           
+        }
+
+        .sobre-text2{
+            text-align: right;
+            width: 75%;
+        }
+
+        .sobre-redondo{
+            width: 18.75rem;
+            height: 18.75rem;
+           
+        }
+
+        .tequila{
+            width: 12.5rem;
+            height: 12.5rem;
+        }
+
+        .fita_sobre{
+         height: 4.7rem;
+         margin-right: 25%;
+        }
+
+        .fita_sobre p {
+            font-size: 2rem;
+            padding-top: 1rem;
+        }
+
+
+                /*EVENTOS*/
+
+
+                .t-eventos{
+                    font-size: 2rem;
+                }
+        
+                .p-eventos{
+                    font-size: .9375rem;
+                    margin-bottom: 2%;
+                }
+
+                .img-evento{
+                    width: 12.5rem;
+                    height: 12.5rem;
+                }
+                .niver{
+                    width: 75%;
+                    margin: 0 auto;
+                }
+                
+                .niver article {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: justify;
+                    width: 70%;
+                    letter-spacing: .0625rem;
+                    padding: .3125rem;
+                    
+                }
+                
+                .niver article h3{
+                    margin-top: -2%;
+                    margin-bottom: 10%;
+                    letter-spacing: .125rem;
+                    font-size: 2rem;
+                }
+                
+                .niver article p{
+                    margin-left: 5%;
+                    text-align: justify;
+                    margin-bottom: 3%;
+                    font-size: 1rem;
+                }
+                
+                .niver article a{
+                    background-color: #E5552E;
+                    padding: .3125rem 1.25rem;
+                    color: white;
+                    font-size: .875rem;
+                    border-radius: .5rem;
+                    margin: 0 auto;
+                    margin-top: 3%;
+                }
+                
+                .niver article a:hover{
+                    color:inherit;
+                }
+                
+                .niver:hover{
+                    transform: inherit;
+                    
+                }
+                
+                .img-quebra-linha{
+                    display: flex;
+                    width: 15.625rem;
+                    height: 5rem;
+                    justify-content: center;
+                    margin: auto;
+                    margin-top:5% ;
+                    margin-bottom: 5%;
+                }
+
+/*CARDAPIO*/
+                .t-cardapio{
+                    font-size: 60px;
+                }
+                #favs, #prtcasa, #bbd, #bbdAlc{
+                    font-size: 40px;
+                }
+                
+                .opcoes{
+                    display: none;
+                }
+                
+                .section-cardapio::before {
+                    display: none;
+                }
+                
+                .section-cardapio{
+                    
+                }
+                
+                .card-produto,.card-produtoDireito{
+                    width: 80%;
+                    display: flex;
+                    justify-content: center;
+                    margin: 0 auto;
+                    flex-wrap: wrap;
+                    height: 400px;
+                    margin-top: 5%;
+                }
+                
+                
+                
+                .card-redondo{
+                    width: 280px;
+                    height: 220px;
+                    margin-left: 0%;
+                    margin-top: 2%;
+                }
+                
+                .card-text{
+                    margin: 0 auto;
+                    font-size: 20px;
+                    text-align: justify;
+                    padding: 10px;
+                }
+                
+
+
+}
+
+@media only screen and (min-width: 961px) and (max-width: 78.75rem) {
+
+
+    /* HOMEPAGE */
+    .division{
+        flex-wrap: wrap;
+        gap: .9375rem;
+        justify-content: center;
+        margin: 8% 5%;
+    }
+
+    h3{
+       
+        font-size: 5vw;
+    }
+
+    .box-footer{
+        margin-top: .9375rem;
+    }
+
+    .social{
+        justify-content: space-around;
+        margin-left: 0;
+        width: 9.375rem;
+    }
+
+    #icone{
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+
+    .p{
+        width: 21.875rem;
+    }
+
+    .texto_footer{
+        font-size: .9375rem;
+    }
+
+
+    .rodape{
+        width: 100%;
+        gap: .9375rem;
+        
+    }
+
+    #imgCranio{
+        display: none;
+    }
+
+    .img-lagartixa{
+        height: 20.625rem;
+        width: 16.25rem;
+        margin-top: 15%;
+        margin-left: -10%;
+    }
+
+    .static--imgs {
+        height: 26.875rem;
+        width: 16.25rem;
+        border-radius: .9375rem;
+        transition: all 0.4s;
+    }
+
+
+    .nav-manual, .nav-auto{
+        margin-top: 60%;
+    }
+
+    section.slider{
+        height: 100%;
+    }
+
+    .slide-box img{
+        width: 99.5%;
+    }
+
+    .estatico_unidades {
+        margin: 1.5625rem 0 6.25rem;
+    }
+
+    
+    .sobre-text-holder2{
+        height: 21.875rem;
+    }
+    /* HOMEPAGE */
+
+    /* CADASTRO */
+    .calanguinho-cadastro{
+        margin-left: -15vw;
+    }
+
+    .tudo-cadastro {
+        margin: 25% 25%;
+      }
+
+
+      /*COMBO*/
+
+      .card-combo-holders, .card-combo-holders2 {
+        
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+       }
+
+        .card-combo-holders img,  .card-combo-holders2 img{
+            width: 21.875rem;
+            height: 18.75rem;
+            
+        }
+
+        
+    .t-combo h1{
+        font-size: 3rem;
+    }
+
+    .img-pimentinha{
+        width: 9.375rem;
+        height: 8.125rem;
+    }
+
+    .combo a, .combo2 a{
+        margin-right: 30%;
+        
+    }
+
+
+
+            /*SOBRE NÓS*/
+
+
+            .sobre-text,  .sobre-text2{
+                font-size: 1.125rem;
+               
+            }
+    
+            .sobre-text2{
+                text-align: right;
+                width: 60%;
+            }
+    
+            .sobre-redondo{
+                width: 15.625rem;
+                height: 15.625rem;
+               
+            }
+    
+            .tequila{
+                width: 9.375rem;
+                height: 9.375rem;
+            }
+    
+            .fita_sobre{
+             height: 4.75rem;
+             margin-right: 20%;
+            }
+    
+            .fita_sobre p {
+                font-size: 2rem;
+                padding-top: 1.5rem;
+            }
+
+                            /*EVENTOS*/
+
+                    .t-eventos{
+                                font-size: 2.5rem;
+                            }
+                    
+                            .p-eventos{
+                                font-size: 1.125rem;
+                                margin-bottom: 2%;
+                            }
+            
+                            .img-evento{
+                                width: 12.5rem;
+                                height: 12.5rem;
+                            }
+                            .niver{
+                                width: 75%;
+                                margin: 0 auto;
+                            }
+                            
+                            .niver article {
+                                display: flex;
+                                flex-direction: column;
+                                text-align: justify;
+                                width: 90%;
+                                letter-spacing: .0625rem;
+                                padding: .3125rem;
+                                
+                            }
+                            
+                            .niver article h3{
+                                margin-top: -2%;
+                                margin-bottom: 5%;
+                                letter-spacing: .125rem;
+                                font-size: 2.1875rem;
+                            }
+                            
+                            .niver article p{
+                                margin-left: 5%;
+                                text-align: justify;
+                                margin-bottom: 3%;
+                                font-size: 1.1875rem;
+                            }
+                            
+                            .niver article a{
+                                background-color: #E5552E;
+                                padding: .3125rem 1.25rem;
+                                color: white;
+                                font-size: 1.125rem;
+                                border-radius: .5rem;
+                                margin: 0 auto;
+                                margin-top: 3%;
+                            }
+                            
+                            .niver article a:hover{
+                                color:inherit;
+                            }
+                            
+                            .niver:hover{
+                                transform: inherit;
+                                
+                            }
+                            
+                            .img-quebra-linha{
+                                display: flex;
+                                width: 18.75rem;
+                                height: 6.25rem;
+                                justify-content: center;
+                                margin: auto;
+                                margin-top:5% ;
+                                margin-bottom: 5%;
+                            }
+                            .t-combo {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin: 0 auto;
+                               }
+                                .t-combo h1{
+                                font-size: 2.8125rem;
+                                font-family: "Irish Grover", system-ui;
+                                text-align: center;
+                                margin-left: 25%;
+                               }
+                               .img-pimentinha{
+                                width: 8.25rem;
+                                height: 6.25rem;
+                                justify-content: center;
+                                margin-right: 11%;
+                               }
+
+
+         /*CCARDAPIO*/    
+         .t-cardapio{
+            font-size: 60px;
+        }
+        #favs, #prtcasa, #bbd, #bbdAlc{
+            font-size: 40px;
+        }
+        
+        .opcoes{
+            display: none;
+        }
+        
+        .section-cardapio::before {
+            display: none;
+        }
+        
+        .section-cardapio{
+            
+        }
+        
+        .card-produto,.card-produtoDireito{
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            height: 400px;
+            margin-top: 5%;
+        }
+        
+        
+        
+        .card-redondo{
+            width: 300px;
+            height: 250px;
+            margin-left: 0%;
+            margin-top: 2%;
+        }
+
+        #btnpratos{
+            margin-bottom: 5px;
+        }
+        
+        .card-text{
+            margin: 0 auto;
+            font-size: 20px;
+            text-align: justify;
+            padding: 10px;
+        }                  
+    
+}
+
+
+/*MODOS DA PAGINAA*/
+/*body {
+    background-color: #ec5930;
+    color: white;
+}
+
+/* Estilos para o modo escuro */
+/*body.dark-mode {
+    background-color: black;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

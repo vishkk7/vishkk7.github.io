@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.estatico_unidades{
+    display: flex;
+    position: relative;
+    gap: 25%;
+    margin-top: 1.5%;
+    position: relative;
+    background: url(./imgs/lagartixa.webp);
+    background-color: black;
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+
+h3{
+    color: #ebd2be;
+    margin-bottom: 15px;
+    margin-left: 7em;
+    
+}
+
+.fixed-cardapio{
+    display: flex;
+    margin-left: -16%;
+   
+}
+
+
+.static--imgs{
+
+    height: 430px;
+    border-radius: 15px;
+    margin-left: 10px;
+    transition: ease-in-out .4s;
+}
+
+.estatico_unidades .img-fixed{
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(50%, 45%);
+
+}
+
+
+
+.img-fixed img{
+    position: static;
+    width: 100%;
+}
+
+
+.static--imgs:hover{
+    transform: scale(1.05);
+    
+}
+
+.img-lagartixa{
+    position: absolute;
+    z-index: 5;
+    margin-left: -4%;
+    margin-top: 16%;
+    width: 300px;
+    height: 430px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+
+main::after{
+    content: ' ';
+    background-image: url(imgs/calaverito.png);
+    background-repeat: no-repeat;
+    background-size: contain;  
+    background-position: center;  
+    position: absolute;
+    width: 1300px;
+    height: 1200px;
+    left: 0;
+    right: 0;    
+    opacity: 0.4;
+    z-index: -1;
+    margin-left: 15%;
+    margin-top: -25%;
+}
+
+.produtos{
+    display: flex;
+    background-color: rgba(56, 56, 53, 0.664);
+
+    border-radius: 40px;
+    margin-left: 17%;
+    margin-right: 5%;
+    margin-top: 5%;
+    position: absolute;
+    height: 20.625rem;
+}
+
+.desc{
+    padding: 50px  80px;
+    color: #faebd7;
+}
+
+.imgProduto{
+    width: 20.625rem;
+    height: 20.625rem;
+    border-radius: 50%;
+    position: relative;
+    margin-left: -12%;
+}
